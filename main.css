@@ -20,7 +20,7 @@ form button {
 /*      Containers      */
 
 .container {
-    max-width: 100%;
+    max-width: 1280px;
     width: 100%;
     margin: 5px;
 }
@@ -111,7 +111,9 @@ section ul {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: rgba(88, 86, 86, 0.917)
+    color: rgba(88, 86, 86, 0.917);
+    max-width: auto;
+    width: 100%;
 }
 
 body {
