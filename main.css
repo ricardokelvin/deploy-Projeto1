@@ -112,8 +112,6 @@ section ul {
     padding: 0;
     box-sizing: border-box;
     color: rgba(88, 86, 86, 0.917);
-    max-width: auto;
-    width: 100%;
 }
 
 body {
@@ -186,4 +184,9 @@ footer p {
     color: rgba(247, 189, 112, 0.827);
 }
 
+body, header,
+footer {
+    max-width: auto;
+    width: 100%;
+}
 /*      General end          */
